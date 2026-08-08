@@ -1,24 +1,18 @@
-# Monitor de Logs Procedural
+---
 
-Sistema simples desenvolvido em Python para geração, formatação e armazenamento local de registros de eventos (logs) do sistema.
+### O que mudou em relação ao anterior?
 
-## 🚀 Funcionalidades
+* **Estrutura de arquivos:** Corrigido de `src/` para `SRC/` e incluído o `.gitignore`.
+* **Nomes das funções:** Atualizado para citar `metadado`, `registra`, `mescla_dados` e `painel_log`.
+* **Fluxo de execução:** Adicionada a instrução de que o programa roda em tempo real e pode ser interrompido com `Ctrl + C`.
 
-- Registro de eventos com data e hora automáticas.
-- Categorização de mensagens por nível (INFO, WARNING, ERROR).
-- Armazenamento automático em arquivo de texto local (`historico_log.txt`).
+---
 
-## 🛠️ Tecnologias Utilizadas
+### Como atualizar no GitHub:
 
-- **Linguagem:** Python 3
-- **Paradigma:** Programação Procedural (sem POO)
-- **Controle de Versão:** Git / GitHub
-
-## 📁 Estrutura do Projeto
-
-```text
-monitor-de-logs/
-├── src/
-│   └── funcoes.py
-├── main.py
-└── README.md
+1. Salve o novo texto no seu arquivo `README.md`.
+2. Abra o CMD na pasta do repositório e rode:
+   ```cmd
+   git add README.md
+   git commit -m "docs: atualiza README com as funcoes exatas do projeto"
+   git push origin main
