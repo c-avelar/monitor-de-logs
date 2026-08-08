@@ -1,0 +1,6 @@
+# Ignorar arquivos de log dinâmicos
+historico_log.txt
+*.log
+
+# Ignorar cache do Python
+__pycache__/
